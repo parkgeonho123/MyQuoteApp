@@ -34,18 +34,21 @@
 *   우선 바탕화면에 폴더를 하나 만들어줍니다
     그리고 cmd창을 열어서 cd 폴더경로로 복사해줍니다
     복사후 git init 명렁어를 입력해줍니다
-    그 다음 밑에있는 명렁어를 입력해준후 
+    그 다음 밑에있는 대로 따라합니다 
     ```bash
-    git clone [https://github.com/parkgeonho123/MyQuoteApp.git](https://github.com/parkgeonho123/MyQuoteApp.git)
+    git clone https://github.com/parkgeonho123/MyQuoteApp.git
     cd MyQuoteApp # 또는 당신의 프로젝트 폴더 이름 (예: QuoteProject)
     ```
-* Git을 사용하지 않는 경우:
-    * GitHub 저장소 페이지에서 초록색 "Code" 버튼을 클릭하고 "Download ZIP"을 선택하여 압축 파일을 다운로드한 후 압축을 해제합니다.
 
 ### 4.3. 가상 환경 설정 및 활성화
 
-프로젝트 폴더(다운로드한 폴더, 예: `MyQuoteApp` 또는 `QuoteProject`)로 이동한 후, 터미널(VS Code의 터미널 또는 PowerShell)을 열어 다음 명령어를 입력합니다.
-
+프로젝트 폴더(다운로드한 폴더, 예: `MyQuoteApp` 또는 `QuoteProject`)로 이동한 후
+가상환경생성하는 코드를 입력하고 
+가상 환경 활성화를 해주는 코드를 입력하고 
+필요한 라이브러리 설치를 해주고 
+마지막으로 애플리케이션을 실행시켜주고
+http::이 주소를 복사하여 웹 브라우저에 접속하면 
+실행이 됩니다.
 ```powershell
 # 가상 환경 생성 (최초 1회)
 python -m venv venv
