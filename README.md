@@ -31,6 +31,10 @@
 ### 4.2. 프로젝트 파일 다운로드
 
 * Git을 사용하는 경우:
+*   우선 바탕화면에 폴더를 하나 만들어줍니다
+    그리고 cmd창을 열어서 cd 폴더경로로 복사해줍니다
+    복사후 git init 명렁어를 입력해줍니다
+    그 다음 밑에있는 명렁어를 입력해준후 
     ```bash
     git clone [https://github.com/parkgeonho123/MyQuoteApp.git](https://github.com/parkgeonho123/MyQuoteApp.git)
     cd MyQuoteApp # 또는 당신의 프로젝트 폴더 이름 (예: QuoteProject)
