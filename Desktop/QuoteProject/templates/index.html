@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클릭! 오늘의 명언 (Python ONLY)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>나만의 명언 (Python ONLY)</h1>
+        <div id="quote-button-area">
+            <form action="/" method="post">
+                <button type="submit" id="getQuoteButton">오늘의 명언 보기</button>
+            </form>
+        </div>
+        <div id="quote-display" class="quote-display">
+            {% if quote %}
+                <p id="quote-text" class="show">"{{ quote }}"</p>
+                <p id="quote-author" class="show">- {{ author }}</p>
+            {% else %}
+                <p id="quote-text" class="placeholder-text">버튼을 눌러 오늘의 명언을 만나보세요!</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
