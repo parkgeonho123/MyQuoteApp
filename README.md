@@ -32,13 +32,16 @@
 
 * Git을 사용하는 경우:
 *   우선 바탕화면에 폴더를 하나 만들어줍니다
-    그리고 cmd창을 열어서 cd 폴더경로로 복사해줍니다
+    그리고 윈도우 + r키를 통해 cmd창을 열어서 cd 폴더경로로 복사해줍니다
     복사후 git init 명렁어를 입력해줍니다
-    그 다음 밑에있는 대로 따라합니다 
+    그 다음 밑에있는 대로 따라합니다
     ```bash
     git clone https://github.com/parkgeonho123/MyQuoteApp.git
     cd MyQuoteApp # 또는 당신의 프로젝트 폴더 이름 (예: QuoteProject)
     ```
+    git clone https://github.com/parkgeonho123/MyQuoteApp.git 입력후 폴더에보면 MyquoteApp라고 있을겁니다.
+    그걸 마우스 우클릭해서 복사를 해줍니다 그 후 다시 cmd창에 들어가 cd 붙여넣기를 해줍니다
+    그 후 밑에 4.3을 따라하면 실행이 됩니다 .
 
 ### 4.3. 가상 환경 설정 및 활성화
 
