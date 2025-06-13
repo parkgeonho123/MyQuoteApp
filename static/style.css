@@ -1,1 +1,108 @@
-creat new file
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    background-image: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 700px;
+    width: 90%;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #4a4a4a;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+#getQuoteButton {
+    background-color: #6a0572;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 5px 15px rgba(106, 5, 114, 0.3);
+}
+
+#getQuoteButton:hover {
+    background-color: #8c0792;
+    box-shadow: 0 8px 20px rgba(106, 5, 114, 0.4);
+    transform: translateY(-2px);
+}
+
+#getQuoteButton:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(106, 5, 114, 0.3);
+}
+
+.quote-display {
+    margin-top: 40px;
+    min-height: 120px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-text {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 90%;
+}
+
+#quote-author {
+    font-size: 1.1em;
+    color: #777;
+    font-style: italic;
+}
+
+.placeholder-text {
+    font-size: 1.5em;
+    color: #999;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 25px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    #getQuoteButton {
+        padding: 12px 25px;
+        font-size: 1.1em;
+    }
+    #quote-text {
+        font-size: 1.4em;
+    }
+    #quote-author {
+        font-size: 1em;
+    }
+    .placeholder-text {
+        font-size: 1.2em;
+    }
+}
